@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Repository\\Repository.csproj": {}
+    "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Contracts\\Contracts.csproj": {
+    "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Contracts\\Contracts.csproj",
-        "projectName": "Contracts",
-        "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+        "projectName": "CompanyEmployees.Presentation",
+        "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
         "packagesPath": "C:\\Users\\SANDRA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Contracts\\obj\\",
+        "outputPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\CompanyEmployees.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SANDRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Entites\\Entites.csproj": {
-                "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Entites\\Entites.csproj"
+              "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Service.Contracts\\Service.Contracts.csproj"
               }
             }
           }
@@ -43,6 +43,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -118,14 +124,14 @@
         }
       }
     },
-    "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Repository\\Repository.csproj": {
+    "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Service.Contracts\\Service.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Repository\\Repository.csproj",
-        "projectName": "Repository",
-        "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Service.Contracts\\Service.Contracts.csproj",
+        "projectName": "Service.Contracts",
+        "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Service.Contracts\\Service.Contracts.csproj",
         "packagesPath": "C:\\Users\\SANDRA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Service.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SANDRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -142,9 +148,6 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Contracts\\Contracts.csproj"
-              },
               "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Entites\\Entites.csproj": {
                 "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Entites\\Entites.csproj"
               }
@@ -160,12 +163,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.11, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

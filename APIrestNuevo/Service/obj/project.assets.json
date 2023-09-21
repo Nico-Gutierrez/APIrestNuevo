@@ -5,6 +5,9 @@
       "Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entites": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Contracts.dll": {}
         },
@@ -12,9 +15,22 @@
           "bin/placeholder/Contracts.dll": {}
         }
       },
+      "Entites/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Entites.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entites.dll": {}
+        }
+      },
       "Service.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entites": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Service.Contracts.dll": {}
         },
@@ -29,6 +45,11 @@
       "type": "project",
       "path": "../Contracts/Contracts.csproj",
       "msbuildProject": "../Contracts/Contracts.csproj"
+    },
+    "Entites/1.0.0": {
+      "type": "project",
+      "path": "../Entites/Entites.csproj",
+      "msbuildProject": "../Entites/Entites.csproj"
     },
     "Service.Contracts/1.0.0": {
       "type": "project",

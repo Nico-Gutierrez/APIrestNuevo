@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Entites/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Entites.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entites.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Entites/1.0.0": {
+      "type": "project",
+      "path": "../Entites/Entites.csproj",
+      "msbuildProject": "../Entites/Entites.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Entites >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\SANDRA\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Entites\\Entites.csproj": {
+              "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Entites\\Entites.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
