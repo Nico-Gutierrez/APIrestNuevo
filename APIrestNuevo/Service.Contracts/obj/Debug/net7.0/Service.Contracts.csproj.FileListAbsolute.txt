@@ -1,0 +1,15 @@
+C:\Users\SANDRA\Documents\Apirestful\APIrestNuevo\Service.Contracts\bin\Debug\net7.0\Service.Contracts.deps.json
+C:\Users\SANDRA\Documents\Apirestful\APIrestNuevo\Service.Contracts\bin\Debug\net7.0\Service.Contracts.dll
+C:\Users\SANDRA\Documents\Apirestful\APIrestNuevo\Service.Contracts\bin\Debug\net7.0\Service.Contracts.pdb
+C:\Users\SANDRA\Documents\Apirestful\APIrestNuevo\Service.Contracts\bin\Debug\net7.0\Entites.dll
+C:\Users\SANDRA\Documents\Apirestful\APIrestNuevo\Service.Contracts\bin\Debug\net7.0\Entites.pdb
+C:\Users\SANDRA\Documents\Apirestful\APIrestNuevo\Service.Contracts\obj\Debug\net7.0\Service.Contracts.csproj.AssemblyReference.cache
+C:\Users\SANDRA\Documents\Apirestful\APIrestNuevo\Service.Contracts\obj\Debug\net7.0\Service.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SANDRA\Documents\Apirestful\APIrestNuevo\Service.Contracts\obj\Debug\net7.0\Service.Contracts.AssemblyInfoInputs.cache
+C:\Users\SANDRA\Documents\Apirestful\APIrestNuevo\Service.Contracts\obj\Debug\net7.0\Service.Contracts.AssemblyInfo.cs
+C:\Users\SANDRA\Documents\Apirestful\APIrestNuevo\Service.Contracts\obj\Debug\net7.0\Service.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\SANDRA\Documents\Apirestful\APIrestNuevo\Service.Contracts\obj\Debug\net7.0\Service.Contracts.csproj.CopyComplete
+C:\Users\SANDRA\Documents\Apirestful\APIrestNuevo\Service.Contracts\obj\Debug\net7.0\Service.Contracts.dll
+C:\Users\SANDRA\Documents\Apirestful\APIrestNuevo\Service.Contracts\obj\Debug\net7.0\refint\Service.Contracts.dll
+C:\Users\SANDRA\Documents\Apirestful\APIrestNuevo\Service.Contracts\obj\Debug\net7.0\Service.Contracts.pdb
+C:\Users\SANDRA\Documents\Apirestful\APIrestNuevo\Service.Contracts\obj\Debug\net7.0\ref\Service.Contracts.dll

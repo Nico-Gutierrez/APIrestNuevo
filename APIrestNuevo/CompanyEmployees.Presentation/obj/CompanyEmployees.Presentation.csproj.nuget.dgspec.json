@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Entites\\Entites.csproj": {
+    "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Service.Contracts\\Service.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Entites\\Entites.csproj",
-        "projectName": "Entites",
-        "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Entites\\Entites.csproj",
+        "projectUniqueName": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Service.Contracts\\Service.Contracts.csproj",
+        "projectName": "Service.Contracts",
+        "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Service.Contracts\\Service.Contracts.csproj",
         "packagesPath": "C:\\Users\\SANDRA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Entites\\obj\\",
+        "outputPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Service.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SANDRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,7 +92,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Shared\\Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -124,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Service.Contracts\\Service.Contracts.csproj": {
+    "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Service.Contracts\\Service.Contracts.csproj",
-        "projectName": "Service.Contracts",
-        "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Service.Contracts\\Service.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\SANDRA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Service.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SANDRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -147,11 +151,7 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Entites\\Entites.csproj": {
-                "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Entites\\Entites.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

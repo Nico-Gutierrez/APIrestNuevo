@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "vft3mBnBrYifmaY0yFH5+VoKYY9A0Y80n6kq3C2aScRlMfVAk5ZxTJlG1Dcg7EQedKkoRPFSZk2VmOSCDVEuyQ==",
+  "dgSpecHash": "3nOqHGsY2pqPx6E9vcdx5gflVL3RiwaoIoqQ1ibNL2ozalqpcOw1138HAl3xPJJPXlHGYoFux4N+iLg7c7JifA==",
   "success": true,
   "projectFilePath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Service\\Service.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\SANDRA\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\SANDRA\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\SANDRA\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\SANDRA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\SANDRA\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\SANDRA\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\SANDRA\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

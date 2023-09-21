@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "Entites/1.0.0": {
+      "Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/Entites.dll": {}
+          "bin/placeholder/Shared.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Entites.dll": {}
+          "bin/placeholder/Shared.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Entites/1.0.0": {
+    "Shared/1.0.0": {
       "type": "project",
-      "path": "../Entites/Entites.csproj",
-      "msbuildProject": "../Entites/Entites.csproj"
+      "path": "../Shared/Shared.csproj",
+      "msbuildProject": "../Shared/Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Entites >= 1.0.0"
+      "Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -53,8 +53,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Entites\\Entites.csproj": {
-              "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Entites\\Entites.csproj"
+            "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Shared\\Shared.csproj"
             }
           }
         }

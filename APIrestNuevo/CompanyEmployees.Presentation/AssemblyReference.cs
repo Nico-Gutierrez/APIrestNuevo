@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CompanyEmployees.Presentation
 {
-    internal class AssemblyReference
+    public static class AssemblyReference
     {
     }
 }
