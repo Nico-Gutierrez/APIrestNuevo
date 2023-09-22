@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace APIrestNuevo.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialData : Migration
+    public partial class Primero : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

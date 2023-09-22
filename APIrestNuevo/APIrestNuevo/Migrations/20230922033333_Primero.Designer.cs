@@ -12,8 +12,8 @@ using Repository;
 namespace APIrestNuevo.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20230921073111_InitialData")]
-    partial class InitialData
+    [Migration("20230922033333_Primero")]
+    partial class Primero
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
