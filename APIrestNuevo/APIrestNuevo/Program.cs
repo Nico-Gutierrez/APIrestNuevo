@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Extensions.Options;
 using NLog;
+using Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,10 +31,16 @@ builder.Services.AddControllers()
 .AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
 
 var app = builder.Build();
-if (app.Environment.IsDevelopment())
-    app.UseDeveloperExceptionPage();
-else
+
+var logger = app.Services.GetRequiredService<ILoggerManager>();
+
+app.ConfigureExceptionHandler(logger);
+if (app.Environment.IsProduction())
     app.UseHsts();
+//if (app.Environment.IsDevelopment())
+   // app.UseDeveloperExceptionPage();
+//else
+    //app.UseHsts();
 app.UseHttpsRedirection(); app.UseStaticFiles(); app.UseForwardedHeaders(new ForwardedHeadersOptions 
 { 
     ForwardedHeaders = ForwardedHeaders.All 
@@ -41,11 +48,11 @@ app.UseHttpsRedirection(); app.UseStaticFiles(); app.UseForwardedHeaders(new For
   
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+//if (app.Environment.IsDevelopment())
+//{
+  //  app.UseSwagger();
+  //  app.UseSwaggerUI();
+//}
 
 app.UseHttpsRedirection();
 
