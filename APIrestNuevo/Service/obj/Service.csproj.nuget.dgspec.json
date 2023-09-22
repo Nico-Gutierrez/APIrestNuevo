@@ -142,6 +142,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Entites\\Entites.csproj": {
+                "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Entites\\Entites.csproj"
+              },
               "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Shared\\Shared.csproj": {
                 "projectPath": "C:\\Users\\SANDRA\\Documents\\Apirestful\\APIrestNuevo\\Shared\\Shared.csproj"
               }
